@@ -1,0 +1,51 @@
+# what is API
+- API = Application Programming Interface
+- An API allows two software systems to communicate with each other.
+- example
+    | Real World Component | API System | Technical Term |
+    | :--- | :--- | :--- |
+    | Customer (gives order) | User / App | Client |
+    | Waiter (sends order to kitchen / brings food back) | API | Interface |
+    | Kitchen (prepares food) | Backend | Server |
+ API = messenger between client and server
+
+
+# Types of API
+    1. REST API
+        | Method | Purpose     |
+        | ------ | ----------- |
+        | GET    | Read data   |
+        | POST   | Create data |
+        | PUT    | Update data |
+        | DELETE | Delete data |
+    2. GraphQL API
+    3. WebSocket API
+    4. Streaming APIs
+
+
+# API Architecture
+
+    Client
+    ↓
+    HTTP Request
+    ↓
+    API Server
+    ↓
+    Business Logic
+    ↓
+    Database
+    ↓
+    Response
+
+
+# HTTP Basics for APIs
+    1. Request
+    2. Response
+        | Code | Meaning      |
+        | ---- | ------------ |
+        | 200  | Success      |
+        | 201  | Created      |
+        | 400  | Bad request  |
+        | 401  | Unauthorized |
+        | 404  | Not found    |
+        | 500  | Server error |
