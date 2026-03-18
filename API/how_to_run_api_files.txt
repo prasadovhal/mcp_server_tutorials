@@ -7,3 +7,5 @@
     - FastAPI automatically creates docs.
     - open - http://127.0.0.1:8000/docs
     - This gives: Swagger UI
+5. to read database use
+    - http://127.0.0.1:8000/users # users if you want to read users
