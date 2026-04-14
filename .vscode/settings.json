@@ -1,0 +1,10 @@
+{
+  "github.copilot.chat.mcp": {
+    "system-monitor": {
+      "command": "poetry",
+      "args": ["run", "python", "MCP_servers/server.py"],
+      "cwd": "${workspaceFolder}",
+      "env": {}
+    }
+  }
+}
